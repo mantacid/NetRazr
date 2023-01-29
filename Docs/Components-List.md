@@ -5,6 +5,9 @@ A soldering Iron is ~~Helpful~~ Necessary. A solder sucker or solder wick is als
 ## 3D Printer
 This will be used to build the casing. However, Numerous other methods and materials can be used instead.
 
+## Calipers
+If you are using different components then the ones detailed in this documentation, then knowing their dimensions with sufficient precision is crucial to the design process.
+
 ## Another Computer
 This will be used to write the firmware to both the Keyboard and the Raspberry Pi, design the PCB and case, and read this documentation.
 
@@ -18,7 +21,6 @@ columns:
 - Package
 - Designation
 - Quantity
-- Supplier
 ```
 
 ## KeyCaps
@@ -36,7 +38,7 @@ Whatever you end up doing however, you will need a total of 72 Keycaps:
 
 
 # Central Unit
-
+This section includes anythingn attached to or powering the carrier board.
 ## Electronic Hardware
 ### Raspberry Pi 4 Compute Module
 I was able to backorder a CM4 with 2GB of RAM for development. You'll want to spring for one with built-in Wi-Fi. I chose to forgo any internal eEMC storage, as 1) I wanted to be cost-efficient, and 2) I wanted to be able to easily swap out the Operating System for easy Development. However, It is entirely your choice whether or not to opt for eEMC.
@@ -46,17 +48,31 @@ The Cyberdeck Cafe recommends that your main display have a resolution that is a
 
 If you so desire, a custom breakout board could also be developed, and the screen could be replaced with a trackpad, e-Ink display, or realy anything you want. 
 
+---
+## Power
+### CR1220 button cell Batery (x1)
+This powers the RTC on the carrier board.
+
+### 18650 Li-Ion Battery (x2)
+These will provide the power to the Carrier Board. Must be 65mm in length.
+
+### [diymore 1865O Double Li-Ion Battery Holder](https://www.amazon.com/Diymore-Lithium-Battery-Charging-Arduino/dp/B07SZKNST4?th=1)
+This board provides a place to put the batteries, and allows them to be charged during use.
+
+---
 ## Mechanical Hardware
 ### Metal Backplate
 This probably should be Custom machined, but bullying a thermally conductive peice of metal into submission should also work if you have a low budget (I have not tried this). See this file for Details (link coming soon)
 
 ### Drawer Rails
-These can be found in a lot of hardware stores. You'll want to avoid ones with magnets.
+These can be found in a lot of hardware stores. You'll want to avoid ones with magnets, as that may affect the polarity of the keyboard diodes.
 >[!note]
 >Dimensions coming soon
 
 # Casing
-You'll need a 3d Printer for this. Other manufacturing methods can be utilized if you don't have access to one. The recommended material for each part will be listed in that part's section.
+You'll need a 3d Printer for this. Other manufacturing methods can be utilized if you don't have access to one. The entire casing can be printed in ABS. Use tolerances of around ==0.5mm==.
+
+In addition to the 3D printed parts, we utilized some metal components from a Meccano set I had lying around, to add both stability and mounting points for additional components. It is for this reason that all the screws (that aren't part of the sliding rails) have a diameter of 3.6mm.
 
 >[!NOTE]
 >This is an unfinished section

@@ -21,8 +21,7 @@ First, Install the QMK tools on your computer. You'll find instructions for vari
 
 Second, Download the contents of the `/Firmware` directory from this repository and move the folder to `~/qmk_firmware/keyboards`.
 
-You'll also need to download KiCAD, as well as the [klepcbgen](https://github.com/jeroen94704/klepcbgen) script and any footprint libraries you may need (such as those containing any obscure keyswitches you may use)
-
+You'll also need to download KiCAD, as well as the [klepcbgen](https://github.com/jeroen94704/klepcbgen) script and any footprint libraries you may need (such as those containing any obscure keyswitches you may use). KiCAD 6 also has an issue with 3D model libraries not working properly. There are a number of fixes for this, none of which worked for me. I had to find, doenload, convert, position, and replace each Component's 3d Model by Hand. If you find an easier way to mass-update the libraries, please tell me.
 ### 1. Generate the Layout
 Using [Keyboard Layout Editor](http://www.keyboard-layout-editor.com/), I was able to create a custom layout for the keyboard. Remember to add Legends before the next step.
 ### 2. Build the Layout File
@@ -41,6 +40,8 @@ Replacing `example_layout.json` with the name of your layout file. once that's d
 
 ### 5. Polishing up the Design
 Klepcbgen is not perfect, you will need to update the footprints, and probably rewire things because of it. Follow the instructions on the tool's Github page to perform all the necessary actions.
+
+Additionally, I found that I needed to adjust the size of the Mounting holes, as the screws I was using were 3.6mm in diameter.
 
 ### 6. Assembly
 Once the Keyboard's Design is up to your standards, get the [[Components-List#Keyboard|components]], order the PCB, and assemble the Keyboard.

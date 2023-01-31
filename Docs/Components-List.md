@@ -22,7 +22,17 @@ columns:
 - Designation
 - Quantity
 ```
-
+I found the Components in this list on these sites:
+[22R Resistor](https://www.mouser.com/ProductDetail/Panasonic/ERA-6AHD220V?qs=sGAEpiMZZMtlubZbdhIBINE5Vwz7C5t%2F1COSCSmdUdY%3D)
+[10kOhm Resistor](https://www.mouser.com/ProductDetail/Panasonic/ERA-6VEB1002V?qs=sGAEpiMZZMtlubZbdhIBIF3tu7NV9mhCMkhdtUityXk%3D)
+[4.7uF Capacitor](https://www.mouser.com/ProductDetail/KYOCERA-AVX/08056D475MAT2A?qs=8gCCvWsAIP16fDHGJX3Haw%3D%3D)
+[Crystal](https://www.mouser.com/ProductDetail/ECS/ECS-200-8-30-JGN-TR?qs=rQFj71Wb1eWMqX0Vmq2tsw%3D%3D)
+[0.1uF Capacitor](https://www.mouser.com/ProductDetail/KYOCERA-AVX/08056D104KAT2A?qs=ZBeOGGPQgEFSiSMjaoxiBA%3D%3D)
+[SPI header](https://www.mouser.com/ProductDetail/Amphenol-FCI/10129382-972002BLF?qs=0lQeLiL1qyb2YZ6YnOsbzg%3D%3D)
+[22pF Capacitor](https://www.mouser.com/ProductDetail/KYOCERA-AVX/04026A220JAT2A?qs=k4kUdCzLgS4lZhgcMzX1uw%3D%3D)
+[Diode](https://www.mouser.com/ProductDetail/Taiwan-Semiconductor/BZY55B12-RBG?qs=mAH9sUMRCtuMqULUHENO7w%3D%3D)
+[FFC Connector](https://www.hirose.com/en/product/p/CL0586-0523-6-55#)
+[MicroUSB Port](https://in.element14.com/wurth-elektronik/629105150521/micro-usb-2-0-type-b-receptacle/dp/2470822#anchorTechnicalDOCS)
 ## KeyCaps
 
 If no modifications are made to the PCB, you will have to make your own spacebars. This is due to the fact that the Footprint libraries I was able to find did not Include the Kailh v2 Switches, which have a different footprint than their previous versions. The unique stem of these keyswitches and the absence of keycaps larger than 2u wide impose additional restrictions, which are circumvented either by printing adapters that allow you to mount MX Style Keycaps, or by redesigning the PCB to use a different switch.
@@ -49,6 +59,7 @@ The Cyberdeck Cafe recommends that your main display have a resolution that is a
 If you so desire, a custom breakout board could also be developed, and the screen could be replaced with a trackpad, e-Ink display, or realy anything you want. 
 
 ---
+
 ## Power
 ### CR1220 button cell Batery (x1)
 This powers the RTC on the carrier board.
@@ -56,10 +67,11 @@ This powers the RTC on the carrier board.
 ### 18650 Li-Ion Battery (x2)
 These will provide the power to the Carrier Board. Must be 65mm in length.
 
-### [diymore 1865O Double Li-Ion Battery Holder](https://www.amazon.com/Diymore-Lithium-Battery-Charging-Arduino/dp/B07SZKNST4?th=1)
-This board provides a place to put the batteries, and allows them to be charged during use.
+### Pijuice UPS HAT
+This will Power the Pi and its carrier board. If possible, I may try to reduce the height of the HAT, but I dont think it can realistically be done.
 
 ---
+
 ## Mechanical Hardware
 ### Metal Backplate
 This probably should be Custom machined, but bullying a thermally conductive peice of metal into submission should also work if you have a low budget (I have not tried this). See this file for Details (link coming soon)

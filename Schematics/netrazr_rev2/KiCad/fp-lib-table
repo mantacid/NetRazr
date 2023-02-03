@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "Kailh_Choc")(type "KiCad")(uri "C:/Users/parke/Desktop/NetRazr/Schematics/Keyboard/KiCad Files/Footprints/keyswitches.pretty-master")(options "")(descr ""))
+  (lib (name "Connector_FFC-FPC")(type "KiCad")(uri "C:/Users/parke/Downloads/kicad-footprints-master-Connector_FFC-FPC.pretty/kicad-footprints-master-Connector_FFC-FPC.pretty/Connector_FFC-FPC.pretty")(options "")(descr ""))
+)

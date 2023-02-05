@@ -46,4 +46,8 @@ Additionally, I found that I needed to adjust the size of the Mounting holes, as
 ### 6. Assembly
 Once the Keyboard's Design is up to your standards, get the [[Components-List#Keyboard|components]], order the PCB, and assemble the Keyboard.
 
+>[!NOTE]
+>It may have been easier for me to handwire the keyboard. Like seriously easier. Ordering all these parts and PCBs is eroding my sanity. Nothing is in stock and out economy is in shambles. But I'm already in too deep to quit, so we stay silly.
+>Don't make my mistakes though. spend the time to hand wire things. You'll have to alter the 3D model to have a plate built in though; The screws are in the way of any grooves I want to put in to allow for that.
+
 From here, follow the QMK documentation instructions on flashing Firmware. Make sure the Keyboard works properly before continuing to [[Fabricate the Case|Case Fabrication]].

@@ -3,14 +3,19 @@ This Documentation contains all the information you ned to build and/or modify t
 This documentation was designed to be read in the Obsidian Application, and as such some formatting may be broken when viewed on Github. I will try my best to make the two as compatible as possible.
 
 # What is NetRazr?
-The NetRazr is a [Cyberdeck](https://cyberdeck.cafe/mix/what-is-a-cyberdeck), designed to be unique, modifiable, and accessible to makers.
+The NetRazr is a [Cyberdeck](https://cyberdeck.cafe/mix/what-is-a-cyberdeck), designed to be unique, modifiable, and accessible to makers. It was planned, designed, and built on a budget, making implementation extremely flexible. Is the Compute Module/carrier board too expensive? Tweak the case and swap them out for a regular Pi and a screen. In this way, this documentation straddles the line between a parts list and loose hardware standard.
+
+# Why'd you make it?
+I thought it was cool, and I was tired of coming up with ideas and not being able to bring them into reality. So I showed the concept to a friend, and we both decided to make it a real thing.
+
+---
+
 
 # SPECS:
 - Quad-Core ARM Processor
 - Up to 8GB RAM
 - Optional eEMC storage
 - Real-time clock powered by a seperate button-cell battery
-- Integrated Heat Sink, with optional fan cooling
 - Ports:
 	- 3 USB 2.0 Ports
 	- 1 USB-C Port (for power)
@@ -32,7 +37,6 @@ Every piece of information you'll need to make this device is included in this r
 To start building this project for yourself, Follow the checklist below (in order).
 ## Progress Tracker
 - [ ] [[Components-List|Aquire all Components]]
-- [ ] [[Create the Keyboard]]
+- [ ] [[Create & Code the Keyboard]]
 - [ ] [[Fabricate the Case]] (IN PROGRESS)
-- [ ] Make the Backplate/IHS
 - [ ] Final Assembly

@@ -3,7 +3,7 @@
 The keyboard runs special QMK firmware that was custom written for the NetRazr's Unique layout. It uses a ten-row, 8-column matrix mapped to a 5-row, 16-column physical layout. I could have optimised the firmware to use an 8x9 matrix instead, but there are a few reasons why I didn't:
 
 1. Having the matrix be half as wide and twice as tall as the physical layout made debugging, keymapping, and wiring much easier.
-2. The 8 empty slots would allow new makers to add new keys without changing too much of the firmware.
+2. The 8 empty slots would allow new makers to add new keys without changing too much of the firmware or circuitry
 
 The source I compiled my firmware from will be included in the `Firmware` Directory of this Repository.
 
@@ -50,4 +50,4 @@ Once the Keyboard's Design is up to your standards, get the [[Components-List#Ke
 >It may have been easier for me to handwire the keyboard. Like seriously easier. Ordering all these parts and PCBs is eroding my sanity. Nothing is in stock and out economy is in shambles. But I'm already in too deep to quit, so we stay silly.
 >Don't make my mistakes though. spend the time to hand wire things. You'll have to alter the 3D model to have a plate built in though; The screws are in the way of any grooves I want to put in to allow for that.
 
-From here, follow the QMK documentation instructions on flashing Firmware. Make sure the Keyboard works properly before continuing to [[Fabricate the Case|Case Fabrication]].
+From here, follow the QMK documentation instructions on flashing Firmware. Make sure the Keyboard works properly before continuing to [[Fabricate the Case|Case Fabrication]]. There's a good website for this, [Keytest](https://en.key-test.ru/), that was reccomended to me by someone in a keyboard-making discord.

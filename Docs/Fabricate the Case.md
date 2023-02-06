@@ -1,6 +1,9 @@
 When developing this project, I made the mistake of designing the case first. It ended up working out, but it was a lot harder to keep redoing the case than it would have been to save that part for last.
 
-you can find all 3d models used in this project in the `Models` Folder
+You can find all 3d models used in this project in the `Models` Folder. I apologize for the fact that they are blend files, It was what I had experience with.
+
+>[!WARNING]
+>For some reason, blender decided that none of the faces of the model would be at right angles with eachother, so you may notice some oddities in the model. While I couldn't fix it completely, I made sure that any deviation was within 0.1mm. I wil attempt to rectify this issue fully in future commits.
 
 # Modeling the Case
 ## The Shell
@@ -8,11 +11,11 @@ The case will have two halves -- one for each half of the split keyboard -- and 
 
 Whatever software you decide to use, you'll probably have an easier time designing the case if you have a 3d model of the assembled PCB. To get this, export the KiCAD PCB as a STEP file, then ~~import it into OpenSCAD~~ Upload it to [ImageToSTL](https://imagetostl.com/convert/file/step/to/stl) and then import it into whatever CAD program you're using. I found that the model got scaled up by a factor of 1000 upon import, so I used some measurements I made in KiCAD to resize the model appropriately.
 
-Each half of the case will be composed of three peices: the bottom (which holds the rails and carrier board), the top half (holds the keyboard), and the friction-fit bars that hold the keyboard PCB in place and that definitely isn't there because I thought the PCB could slide in place after the switches were added.
+Each half of the case will be composed of three peices: the bottom (which holds the rails and carrier board), the top half (holds the keyboard), and the friction-fit bars that hold the keyboard PCB in place and that definitely isn't there because I thought the PCB could slide in place after the switches were added. Additionally, there are also some 3d printable rail components that slot into the bottom halves, contain slots for magnets, and are secured with some Erector set components.
 
 Aside from the third part, both halves are held in place with identical bolts, threaded through embedded nuts adhered to the case.
 
-should you have a different carrier board (or a seperate SBC and a display) I have added vertex groups to each part of the casing that allow you to resize it with minimal effort.
+Should you have a different carrier board (or a seperate SBC and a display) I have added vertex groups to each part of the casing that allow you to resize it with minimal effort.
 
 ### Design Considerations
 When conceptualizing the design, we knew what features we wanted to include, and thus needed to design the casing accordingly.

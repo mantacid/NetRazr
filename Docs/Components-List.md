@@ -1,3 +1,4 @@
+
 # Equipment
 ## Soldering Iron
 A soldering Iron is ~~Helpful~~ Necessary. A solder sucker or solder wick is also necessary if you plan on rerouting the ports on the center board.
@@ -13,6 +14,8 @@ This will be used to write the firmware to both the Keyboard and the Raspberry P
 
 # Keyboard
 ## Electrical Components
+>[!TIP]
+>To save on costs, see if your chosen supplier of components has a free sample request form. I applied for free samples to get the microcontroller for the keyboard, which saved me a decent chunk of money.
 
 >[!WARNING]
 >Because I used klepcbgen to make the pcb, I did not realize until too late that the components were extremely tiny. If you are a novice solderer, you WILL want to modify the board to use larger components. 
@@ -36,7 +39,7 @@ I found the Components in this list on these sites:
 [Diode](https://www.mouser.com/ProductDetail/Taiwan-Semiconductor/BZY55B12-RBG?qs=mAH9sUMRCtuMqULUHENO7w%3D%3D)
 [FFC Connector](https://www.hirose.com/en/product/p/CL0586-0523-6-55#)
 [MicroUSB Port](https://in.element14.com/wurth-elektronik/629105150521/micro-usb-2-0-type-b-receptacle/dp/2470822#anchorTechnicalDOCS)
-[Kailh Choc Tactile Switches](https://lowprokb.ca/collections/keyboards/products/sunset-tactile-choc-switches) (everywhere else was sold out, and I didnt want clicky or linear switches)
+[Kailh Choc Tactile Switches](https://lowprokb.ca/collections/keyboards/products/sunset-tactile-choc-switches) (everywhere else was sold out, and I didnt want clicky or linear switches. I ended up having to settle for the clicky switches anyways, because I was not paying $9 for a pack of 10 switches.)
 ## KeyCaps
 
 If no modifications are made to the keyboard layout, you will have to make your own spacebars. This is due to the fact that the Footprint libraries I was able to find did not Include the Kailh v2 Switches, which have a different footprint than their previous versions. The unique stem of these keyswitches and the absence of keycaps larger than 2u wide impose additional restrictions, which are circumvented either by printing adapters that allow you to mount MX Style Keycaps, or by redesigning the PCB to use a different switch.
@@ -63,10 +66,12 @@ I was able to backorder a CM4 with 2GB of RAM for development. You'll want to sp
 ### Waveshare 5" Touchscreen Expansion for Raspberry Pi CM4
 The Cyberdeck Cafe recommends that your main display have a resolution that is at least 1024x600. however, I did not want this deck to be too much bigger than it already was, So I opted to allow for the optional addition of a second display, which could let the first display be used as a trackpad/status indicator/second display.
 
+One downside to choosing this particular board is that it is very tall, so extensive modding is needed to prevent the keyboard from being at a height that would give you carpal tunel.
+
 If you so desire, a custom breakout board could also be developed, and the screen could be replaced with a trackpad, e-Ink display, or realy anything you want.
 
 >[!IMPORTANT]
->I had gotten so caught up in the designing of the thing that I forgot that I could totaly just fit my regular Raspberry Pi somewhere else in the casing, and just use a less expensive display for this part. Given the current shortages, it may be wise to use what you already have rather than break the bank on following my specifications exactly. It is for this reason that all the files in this repository are made to be easily modified, so you aren't forced to make my mistakes.
+>I had gotten so caught up in the designing of the thing that I forgot that** I could totaly just fit my regular Raspberry Pi somewhere else in the casing, and just use a less expensive display for this part**. Given the current shortages, it may be wise to use what you already have rather than break the bank on following my specifications exactly. It is for this reason that all the files in this repository are made to be easily modified, so you aren't forced to make my mistakes.
 
 ---
 

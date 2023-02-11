@@ -68,7 +68,7 @@ The Cyberdeck Cafe recommends that your main display have a resolution that is a
 
 One downside to choosing this particular board is that it is very tall, so extensive modding is needed to prevent the keyboard from being at a height that would give you carpal tunel.
 
-You will need to desolder the usb ports and the Ethernet port. GPIO can optionally be relocated, and so can the indicator LEDs. Note that the ethernet port on this board has four extra pins; I have yet to discern their purpose, though it may have something to do with PoE.
+You will need to desolder the USB ports, the Fan Header, and the Ethernet port. GPIO can optionally be relocated, and so can the indicator LEDs. Note that the ethernet port on this board has four extra pins; Likely because the port has a transformer inside of it.
 
 To access the backside of the board, you will need to foam and adhesive. Removing the foam is possible with a wiresaw, or even a hobby knife, but you run the risk of damaging the ribbon connectors if you don't disconnect the display first. To do so, first release the ribbon cables from their connectors. Then, use a spudger to carefully pry the metal tabs off of the side of the display. This will first release the capacitive touch screen; the next set of tabs underneath will release the display. At this point you can get rid of the foam, and reassemble the display while it is still disconnected, to prevent any dust from settling inside.
 
@@ -91,9 +91,10 @@ This will Power the Pi and its carrier board. This can be replaced with a number
 ### Neodymium Magnets
 These are used in the Slide rails to lock the case open and closed, as well as in the side compartments to hold the covers on. Rememebr to adjust the size of the holes they get placed into so that your magnets will fit.
 
-### Metal beams
-These can (and probably should) be machined to better fit your needs. However, I had an Erector/Meccano set lying around, so I used the metal parts from that to make the various attachment points for the displays and rail system. I just hope the measurements work in my favor.
+### Metal Strips
+These can (and probably should) be machined to better fit your needs. However, I had an Erector/Meccano set lying around, so I used the metal parts from that to make the various attachment points for the displays and rail system. you can find (suprisingly) accurate measurements for any existing Meccano components in their [patents index](https://www.meccanoindex.co.uk/Drawings/Parts.php?id=1675957997).
 
+The particular metal strips I used had more than 11 holes. I only needed 11, but I only had strips that were either way shorter or way longer than I needed.
 ### Nuts and bolts
 Speaking of that Erector/Meccano set, I chose to use the nuts and bolts from that set to secure the various case parts together. I am having trouble finding the specifications of those specific components, but they came in the 12-in-1 deluxe crane set. You can of course, alter the 3d model to use different parts, or even have the case snap fit together.
 

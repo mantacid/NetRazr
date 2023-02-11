@@ -68,6 +68,10 @@ The Cyberdeck Cafe recommends that your main display have a resolution that is a
 
 One downside to choosing this particular board is that it is very tall, so extensive modding is needed to prevent the keyboard from being at a height that would give you carpal tunel.
 
+You will need to desolder the usb ports and the Ethernet port. GPIO can optionally be relocated, and so can the indicator LEDs. Note that the ethernet port on this board has four extra pins; I have yet to discern their purpose, though it may have something to do with PoE.
+
+To access the backside of the board, you will need to foam and adhesive. Removing the foam is possible with a wiresaw, or even a hobby knife, but you run the risk of damaging the ribbon connectors if you don't disconnect the display first. To do so, first release the ribbon cables from their connectors. Then, use a spudger to carefully pry the metal tabs off of the side of the display. This will first release the capacitive touch screen; the next set of tabs underneath will release the display. At this point you can get rid of the foam, and reassemble the display while it is still disconnected, to prevent any dust from settling inside.
+
 If you so desire, a custom breakout board could also be developed, and the screen could be replaced with a trackpad, e-Ink display, or realy anything you want.
 
 >[!IMPORTANT]

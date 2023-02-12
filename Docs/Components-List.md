@@ -77,6 +77,12 @@ If you so desire, a custom breakout board could also be developed, and the scree
 >[!IMPORTANT]
 >I had gotten so caught up in the designing of the thing that I forgot that** I could totaly just fit my regular Raspberry Pi somewhere else in the casing, and just use a less expensive display for this part**. Given the current shortages, it may be wise to use what you already have rather than break the bank on following my specifications exactly. It is for this reason that all the files in this repository are made to be easily modified, so you aren't forced to make my mistakes.
 
+### Cat5e Cable
+This is needed to modify the ethernet port on the carrier board. When soldered on, it should be no more than 6 inches in length. Some of the wires have to be twisted together, so make sure to figure out which ones those are.
+
+### Other wires
+These will be used to modify the rest of the board.
+
 ---
 
 ## Power
@@ -89,7 +95,7 @@ This will Power the Pi and its carrier board. This can be replaced with a number
 
 ## Mechanical Hardware
 ### Neodymium Magnets
-These are used in the Slide rails to lock the case open and closed, as well as in the side compartments to hold the covers on. Rememebr to adjust the size of the holes they get placed into so that your magnets will fit.
+These are used in the Slide rails to lock the case open and closed, as well as in the side compartments to hold the covers on. Remember to adjust the size of the holes they get placed into so that your magnets will fit. I used 2.54mm diameter disc magnets with a depth of 2.54mm. You can buy these online.
 
 ### Metal Strips
 These can (and probably should) be machined to better fit your needs. However, I had an Erector/Meccano set lying around, so I used the metal parts from that to make the various attachment points for the displays and rail system. you can find (suprisingly) accurate measurements for any existing Meccano components in their [patents index](https://www.meccanoindex.co.uk/Drawings/Parts.php?id=1675957997).

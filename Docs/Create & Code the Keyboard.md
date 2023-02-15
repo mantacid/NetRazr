@@ -44,10 +44,13 @@ Klepcbgen is not perfect, you will need to update the footprints, and probably r
 Additionally, I found that I needed to adjust the size of the Mounting holes, as the screws I was using were 3.6mm in diameter.
 
 ### 6. Assembly
-Once the Keyboard's Design is up to your standards, get the [[Components-List#Keyboard|components]], order the PCB, and assemble the Keyboard.
+Once the Keyboard's Design is up to your standards, get the [[Components-List#Keyboard|components]], order the PCB, and assemble the Keyboard. I advise also ordering a solder stencil.
+
+Make sure to solder the surface-mount components before installing the keyswitches, as doign that the other way around will render the stencil pretty much useless. Also make sure that you have all the components before you order the PCBs. I didn't do that, and was stuck waiting for each component before I could make any progress.
 
 >[!NOTE]
 >It may have been easier for me to handwire the keyboard. Like seriously easier. Ordering all these parts and PCBs is eroding my sanity. Nothing is in stock and out economy is in shambles. But I'm already in too deep to quit, so we stay silly.
->Don't make my mistakes though. spend the time to hand wire things. You'll have to alter the 3D model to have a plate built in though; The screws are in the way of any grooves I want to put in to allow for that.
+>Don't make my mistakes though. If you have the patience to do so, spend the time to hand wire things. You'll have to alter the 3D model to have a plate built in though; The screws are in the way of any grooves I want to put in to allow for that.
+>Of course, if you already have everything you'd need, you could go with the PCB option as well.
 
 From here, follow the QMK documentation instructions on flashing Firmware. Make sure the Keyboard works properly before continuing to [[Fabricate the Case|Case Fabrication]]. There's a good website for this, [Keytest](https://en.key-test.ru/), that was reccomended to me by someone in a keyboard-making discord.

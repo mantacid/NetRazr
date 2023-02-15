@@ -29,14 +29,26 @@ I thought it was cool, and I was tired of coming up with ideas and not being abl
 - Built-in 5" Capacitive touch display (800x480 px)
 - Split Mechanical Keyboard with custom layout and firmware
 - Ample space inside for modding
-- 3D-Printed casing
+- 3D-Printed casing with optional wrist support
 
 # How do I Start?
 Every piece of information you'll need to make this device is included in this repository, and sorted into directories for ease of location. You are free to customize, modify, and/or improve these designs to better fit your use-case, so long as you attribute me.
 
+## Making the NetRazr your own
+When making this device, you may come up with ideas to make the system better suited for specific cases, or you may find ways to improve the deck overall. If you have made a significant change to how the deck functions, I encourage you to fork this repository and detail the implemented changes. Make sure to link back to my original repository, as well as to the one you forked from (if those two aren't the same repository).
+
 To start building this project for yourself, Follow the checklist below (in order).
 ## Progress Tracker
+The following sections detail the creation of the base system:
 - [ ] [[Components-List|Aquire all Components]]
 - [ ] [[Create & Code the Keyboard]]
 - [ ] [[Fabricate the Case]] (IN PROGRESS)
-- [ ] Final Assembly
+- [ ] [[Hardware Assembly]] (IN PROGRESS)
+- [ ] Firmware Setup
+
+The following are just a few ideas for modifications that could be implemented:
+- A secondary display placed in a more traditional location
+- Internet over GSM
+- Hot-swappable Linux images
+- A mounting bracket to use your phone as a monitor over VNC
+- Using AA batteries as a backup power source for off-the-grid applications

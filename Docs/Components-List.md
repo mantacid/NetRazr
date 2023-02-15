@@ -38,6 +38,7 @@ I found the Components in this list on these sites:
 [22pF Capacitor](https://www.mouser.com/ProductDetail/KYOCERA-AVX/04026A220JAT2A?qs=k4kUdCzLgS4lZhgcMzX1uw%3D%3D)
 [Diode](https://www.mouser.com/ProductDetail/Taiwan-Semiconductor/BZY55B12-RBG?qs=mAH9sUMRCtuMqULUHENO7w%3D%3D)
 [FFC Connector](https://www.hirose.com/en/product/p/CL0586-0523-6-55#)
+[FFC Cable](https://www.newark.com/multicomp-pro/mp-ffca05153052a/cable-assy-ffc-ffc-15-core-305mm/dp/83AH2530?ost=ffca05153052a)
 [MicroUSB Port](https://in.element14.com/wurth-elektronik/629105150521/micro-usb-2-0-type-b-receptacle/dp/2470822#anchorTechnicalDOCS)
 [Kailh Choc Tactile Switches](https://lowprokb.ca/collections/keyboards/products/sunset-tactile-choc-switches) (everywhere else was sold out, and I didnt want clicky or linear switches. I ended up having to settle for the clicky switches anyways, because I was not paying $9 for a pack of 10 switches.)
 ## KeyCaps

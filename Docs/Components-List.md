@@ -92,6 +92,8 @@ This powers the RTC on the carrier board.
 ### Pijuice UPS HAT
 This will Power the Pi and its carrier board. This can be replaced with a number of alternatives; one could maybe even use a regular charging bank made for cellphones, assuming the right voltage is provided. The casing was designed to be modified to your needs, and that includes makers on a budget.
 
+>[!NOTE] An alternative could be [This](https://www.amazon.com/gp/product/B01LAEX7J0/) Board, which supports Passthrough and has a hardware switch built in, but also supports using a different switch.
+
 ---
 
 ## Mechanical Hardware
@@ -102,8 +104,12 @@ These are used in the Slide rails to lock the case open and closed, as well as i
 These can (and probably should) be machined to better fit your needs. However, I had an Erector/Meccano set lying around, so I used the metal parts from that to make the various attachment points for the displays and rail system. you can find (suprisingly) accurate measurements for any existing Meccano components in their [patents index](https://www.meccanoindex.co.uk/Drawings/Parts.php?id=1675957997).
 
 The particular metal strips I used had more than 11 holes. I only needed 11, but I only had strips that were either way shorter or way longer than I needed.
+
 ### Nuts and bolts
 Speaking of that Erector/Meccano set, I chose to use the nuts and bolts from that set to secure the various case parts together. I am having trouble finding the specifications of those specific components, but they came in the 12-in-1 deluxe crane set. You can of course, alter the 3d model to use different parts, or even have the case snap fit together.
+
+### Power Button
+This [Push Switch](https://www.amazon.com/gp/product/B015X34IP6) can be integrated with the alternate power supply to provide a good way of powering off the pi from the exterior of the case.
 
 # Casing
 You'll need a 3d Printer for this. Other manufacturing methods can be utilized if you don't have access to one. The entire casing can be printed in ABS, but you should be aware that ABS tends to warp as it cools.
@@ -119,6 +125,7 @@ In addition to the 3D printed parts, we utilized some metal components from a Me
 # Miscellaneous Peripherals
 - (OPTIONAL) Small Mouse, USB Trackpad, or other pointing device
 - MicroSD card (In the absence of any eEMC or M.2 SSD, the capacity of the microSD card will determine the avaliable storage space of the device. 32GB is usually a good starting point)
+- A thin [HDMI Cable](https://www.amazon.com/NFHK-Degree-Right-Up-Multicopter-Photography/dp/B096K6MSCS) is needed if you plan on adding a secondary display.
 
 ---
 

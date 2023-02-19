@@ -109,7 +109,7 @@ The particular metal strips I used had more than 11 holes. I only needed 11, but
 Speaking of that Erector/Meccano set, I chose to use the nuts and bolts from that set to secure the various case parts together. I am having trouble finding the specifications of those specific components, but they came in the 12-in-1 deluxe crane set. You can of course, alter the 3d model to use different parts, or even have the case snap fit together.
 
 ### Power Button
-This [Push Switch](https://www.amazon.com/gp/product/B015X34IP6) can be integrated with the alternate power supply to provide a good way of powering off the pi from the exterior of the case.
+This [Push Switch](https://www.amazon.com/Linkstyle-Latching-Waterproof-Self-Locking-Mounting/dp/B07GDNB2XH) can be integrated with the alternate power supply to provide a good way of powering off the pi from the exterior of the case.
 
 # Casing
 You'll need a 3d Printer for this. Other manufacturing methods can be utilized if you don't have access to one. The entire casing can be printed in ABS, but you should be aware that ABS tends to warp as it cools.

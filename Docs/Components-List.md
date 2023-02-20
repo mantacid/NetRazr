@@ -1,7 +1,7 @@
 
 # Equipment
 ## Soldering Iron
-A soldering Iron is ~~Helpful~~ Necessary. A solder sucker or solder wick is also necessary if you plan on rerouting the ports on the center board.
+A soldering Iron is ~~Helpful~~ Necessary. A solder sucker or solder wick is also necessary if you plan on rerouting the ports on the center board. Of course, you can avoid having to mod the board if you instead use a standard single board computer and a seperate display. I did not, however, because I overengineered the deck and only realized it after I bought and modded the display.
 
 ## 3D Printer
 This will be used to build the casing. However, Numerous other methods and materials can be used instead.
@@ -43,7 +43,10 @@ I found the Components in this list on these sites:
 [Kailh Choc Tactile Switches](https://lowprokb.ca/collections/keyboards/products/sunset-tactile-choc-switches) (everywhere else was sold out, and I didnt want clicky or linear switches. I ended up having to settle for the clicky switches anyways, because I was not paying $9 for a pack of 10 switches.)
 ## KeyCaps
 
-If no modifications are made to the keyboard layout, you will have to make your own spacebars. This is due to the fact that the Footprint libraries I was able to find did not Include the Kailh v2 Switches, which have a different footprint than their previous versions. The unique stem of these keyswitches and the absence of keycaps larger than 2u wide impose additional restrictions, which are circumvented either by printing adapters that allow you to mount MX Style Keycaps, or by redesigning the PCB to use a different switch.
+If no modifications are made to the keyboard layout, you may have to make your own spacebars. This is due to the fact that the Footprint libraries I was able to find did not Include the Kailh v2 Switches, which have a different footprint than their previous versions. The unique stem of these keyswitches and the absence of keycaps larger than 2u wide impose additional restrictions, which are circumvented either by printing adapters that allow you to mount MX Style Keycaps, or by redesigning the PCB to use a different switch.
+
+>[!NOTE]
+>Turns out, [Chosfox](https://chosfox.com/collections/low-profile-keycaps) Sells 3U Kailh Choc v1 caps. This is great, since My project partner wasn't able to get 3D printed caps to work. As of this writing, the 3U caps only come in orange, but that may change by the time you are reading this.
 
 Whatever you end up doing however, you will need a total of 72 Keycaps:
 - 66x 1u caps (If desired, two of these should be Homing Keys)
@@ -82,23 +85,21 @@ If you so desire, a custom breakout board could also be developed, and the scree
 This is needed to modify the ethernet port on the carrier board. When soldered on, it should be no more than 6 inches in length. Some of the wires have to be twisted together, so make sure to figure out which ones those are.
 
 ### Other wires
-These will be used to modify the rest of the board.
+These will be used to modify the rest of the board. I promise this section will get more specific in the future.
 
 ---
 
 ## Power
 ### CR1220 button cell Batery (x1)
 This powers the RTC on the carrier board.
-### Pijuice UPS HAT
-This will Power the Pi and its carrier board. This can be replaced with a number of alternatives; one could maybe even use a regular charging bank made for cellphones, assuming the right voltage is provided. The casing was designed to be modified to your needs, and that includes makers on a budget.
-
->[!NOTE] An alternative could be [This](https://www.amazon.com/gp/product/B01LAEX7J0/) Board, which supports Passthrough and has a hardware switch built in, but also supports using a different switch.
+### RPi V3P UPS HAT (plus battery and power button)
+The [RPi V3P UPS](https://www.makerfocus.com/products/raspberry-pi-expansion-board-ups-pack-standard-power-supply) from Makerfocus allows us to charge the battery while still using the deck, and is thus an optimal choice for powering the Pi and its carrier board. It also supports wiring an external power button (that lights up), which MakerFocus also sells. This board can be replaced with a number of alternatives though; one could maybe even use a regular charging bank made for cellphones, assuming the right voltage is provided. The casing was designed to be modified to your needs, and that includes makers on a budget.
 
 ---
 
 ## Mechanical Hardware
 ### Neodymium Magnets
-These are used in the Slide rails to lock the case open and closed, as well as in the side compartments to hold the covers on. Remember to adjust the size of the holes they get placed into so that your magnets will fit. I used 2.54mm diameter disc magnets with a depth of 2.54mm. You can buy these online.
+These are used in the Slide rails to lock the case open and closed, as well as in the side compartments to hold the covers on. Remember to adjust the size of the holes they get placed into so that your magnets will fit. I used 1mm diameter disc magnets with a depth of 1mm. You can buy these online.
 
 ### Metal Strips
 These can (and probably should) be machined to better fit your needs. However, I had an Erector/Meccano set lying around, so I used the metal parts from that to make the various attachment points for the displays and rail system. you can find (suprisingly) accurate measurements for any existing Meccano components in their [patents index](https://www.meccanoindex.co.uk/Drawings/Parts.php?id=1675957997).
@@ -108,18 +109,14 @@ The particular metal strips I used had more than 11 holes. I only needed 11, but
 ### Nuts and bolts
 Speaking of that Erector/Meccano set, I chose to use the nuts and bolts from that set to secure the various case parts together. I am having trouble finding the specifications of those specific components, but they came in the 12-in-1 deluxe crane set. You can of course, alter the 3d model to use different parts, or even have the case snap fit together.
 
-### Power Button
-This [Push Switch](https://www.amazon.com/Linkstyle-Latching-Waterproof-Self-Locking-Mounting/dp/B07GDNB2XH) can be integrated with the alternate power supply to provide a good way of powering off the pi from the exterior of the case.
+You will also need four M2.5 Screws, and some corresponding nuts. These nuts are typically hexagonal, with a thickness of 2mm a minimum width of 5mm. These will be used to mount the power board.
 
 # Casing
 You'll need a 3d Printer for this. Other manufacturing methods can be utilized if you don't have access to one. The entire casing can be printed in ABS, but you should be aware that ABS tends to warp as it cools.
 
 Because I'm using ABS filament, friction-fit parts use tolerances of around ==0.5mm==. However, You should test what tolerances your printer and material works best with, and take into account the material's properties and quirks.
 
-In addition to the 3D printed parts, we utilized some metal components from a Meccano/Erector set I had lying around, to add both stability and mounting points for additional components. It is for this reason that all the screws that aren't used for mounting HATs have a diameter of 3.6mm.
-
->[!NOTE]
->This is an unfinished section
+In addition to the 3D printed parts, we utilized some metal components from a Meccano/Erector set I had lying around, to add both stability and mounting points for additional components. It is for this reason that all the screws that *aren't* used for mounting HATs have a thread diameter of 3.6mm.
 
 
 # Miscellaneous Peripherals

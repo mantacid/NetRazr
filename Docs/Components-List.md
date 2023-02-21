@@ -92,8 +92,12 @@ These will be used to modify the rest of the board. I promise this section will 
 ## Power
 ### CR1220 button cell Batery (x1)
 This powers the RTC on the carrier board.
+
 ### RPi V3P UPS HAT (plus battery and power button)
 The [RPi V3P UPS](https://www.makerfocus.com/products/raspberry-pi-expansion-board-ups-pack-standard-power-supply) from Makerfocus allows us to charge the battery while still using the deck, and is thus an optimal choice for powering the Pi and its carrier board. It also supports wiring an external power button (that lights up), which MakerFocus also sells. This board can be replaced with a number of alternatives though; one could maybe even use a regular charging bank made for cellphones, assuming the right voltage is provided. The casing was designed to be modified to your needs, and that includes makers on a budget.
+
+### USB-C Panel-Mount Port
+I chose to use [this model](https://www.adafruit.com/product/4218) from Adafruit since I did not feel like wiring a USB-C port to be flush with the case.
 
 ---
 

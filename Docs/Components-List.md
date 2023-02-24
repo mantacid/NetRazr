@@ -55,11 +55,6 @@ Whatever you end up doing however, you will need a total of 72 Keycaps:
 
 >[!WARNING]
 >I forgot to make room for stabilizer bars on the pcb, so I'm using some foam to hold up the space bar. It's janky as hell, but at least that's on brand.
-## Hardware Components
-
->[!NOTE]
->Unfinished Section
-
 
 # Central Unit
 This section includes anything attached to or powering the carrier board.
@@ -127,6 +122,7 @@ In addition to the 3D printed parts, we utilized some metal components from a Me
 - (OPTIONAL) Small Mouse, USB Trackpad, or other pointing device
 - MicroSD card (In the absence of any eEMC or M.2 SSD, the capacity of the microSD card will determine the avaliable storage space of the device. 32GB is usually a good starting point)
 - A thin [HDMI Cable](https://www.amazon.com/NFHK-Degree-Right-Up-Multicopter-Photography/dp/B096K6MSCS) is needed if you plan on adding a secondary display.
+- A USB soundcard like this [USB to audio jack adapter](https://thepihut.com/products/usb-audio-adapter-works-with-raspberry-pi). I incorporated this into my design as I wanted to have the ability to utilize audio.
 
 ---
 

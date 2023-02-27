@@ -2,6 +2,8 @@ This Documentation contains all the information you ned to build and/or modify t
 
 This documentation was designed to be read in the Obsidian Application, and as such some formatting may be broken when viewed on Github. I will try my best to make the two as compatible as possible.
 
+![[Netrazr-Render-Test.png]]
+
 # What is NetRazr?
 The NetRazr is a [Cyberdeck](https://cyberdeck.cafe/mix/what-is-a-cyberdeck), designed to be unique, modifiable, and accessible to makers. It was planned, designed, and built on a budget, making implementation extremely flexible. Is the Compute Module/carrier board too expensive? Tweak the case and swap them out for a regular Pi and a screen. In this way, this documentation straddles the line between a parts list and loose hardware standard.
 

@@ -16,6 +16,8 @@ Each half of the case will be composed of three peices: the bottom (which holds 
 Aside from the third part, both halves are held in place with identical bolts, threaded through embedded nuts adhered to the case.
 
 Should you have a different carrier board (or a seperate SBC and a display) I have added vertex groups to each part of the casing that allow you to resize it with minimal effort.
+>[!note]
+>Vertex Groups no longer work.
 
 ### Design Considerations
 When conceptualizing the design, we knew what features we wanted to include, and thus needed to design the casing accordingly.

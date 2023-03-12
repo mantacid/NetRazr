@@ -44,8 +44,8 @@ To start building this project for yourself, Follow the checklist below (in orde
 The following sections detail the creation of the base system:
 - [ ] [[Components-List|Aquire all Components]]
 - [ ] [[Create & Code the Keyboard]]
-- [ ] [[Fabricate the Case]] (IN PROGRESS)
-- [ ] [[Hardware Assembly]] (IN PROGRESS)
+- [ ] [[Fabricate the Case]]
+- [ ] [[Hardware Assembly]]
 - [ ] Firmware Setup
 
 The following are just a few ideas for modifications that could be implemented:

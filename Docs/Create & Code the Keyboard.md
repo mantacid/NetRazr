@@ -5,7 +5,7 @@ The keyboard runs special QMK firmware that was custom written for the NetRazr's
 1. Having the matrix be half as wide and twice as tall as the physical layout made debugging, keymapping, and wiring much easier.
 2. The 8 empty slots would allow new makers to add new keys without changing too much of the firmware or circuitry
 
-The source I compiled my firmware from will be included in the `Firmware` Directory of this Repository.
+The source I compiled my firmware from will be included in the `Firmware` Directory of this Repository, along with a hex file for flashing via USB.
 
 My recommendation for modifying the firmware is that it should be done on a linux machine, as it comes with the necessary C Compiler by default. 
 

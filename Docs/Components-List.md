@@ -3,6 +3,8 @@
 ## Soldering Iron
 A soldering Iron is ~~Helpful~~ Necessary. A solder sucker or solder wick is also necessary if you plan on rerouting the ports on the center board. Of course, you can avoid having to mod the board if you instead use a standard single board computer and a seperate display. I did not, however, because I overengineered the deck and only realized it after I bought and modded the display.
 
+Soldering paste will also be helpful, as many of the components cannot be soldered without it.
+
 ## 3D Printer
 This will be used to build the casing. However, Numerous other methods and materials can be used instead.
 
@@ -41,6 +43,9 @@ I found the Components in this list on these sites:
 [FFC Cable](https://www.newark.com/multicomp-pro/mp-ffca05153052a/cable-assy-ffc-ffc-15-core-305mm/dp/83AH2530?ost=ffca05153052a)
 [MicroUSB Port](https://in.element14.com/wurth-elektronik/629105150521/micro-usb-2-0-type-b-receptacle/dp/2470822#anchorTechnicalDOCS)
 [Kailh Choc Tactile Switches](https://lowprokb.ca/collections/keyboards/products/sunset-tactile-choc-switches) (everywhere else was sold out, and I didnt want clicky or linear switches. I ended up having to settle for the clicky switches anyways, because I was not paying $9 for a pack of 10 switches.)
+
+You will also need a special HDMI cable if you plan to attach a secondary display, as well as a USB to USB-C cable to power the display, and a USB to MicroUSB cable to connect the keyboard. both of these cables should be flexible enough to not interfere with the movement of the case.
+
 ## KeyCaps
 
 If no modifications are made to the keyboard layout, you may have to make your own spacebars. This is due to the fact that the Footprint libraries I was able to find did not Include the Kailh v2 Switches, which have a different footprint than their previous versions. The unique stem of these keyswitches and the absence of keycaps larger than 2u wide impose additional restrictions, which are circumvented either by printing adapters that allow you to mount MX Style Keycaps, or by redesigning the PCB to use a different switch.
@@ -64,6 +69,8 @@ I was able to backorder a CM4 with 2GB of RAM for development. You'll want to sp
 
 ### Waveshare 5" Touchscreen Expansion for Raspberry Pi CM4
 The Cyberdeck Cafe recommends that your main display have a resolution that is at least 1024x600. however, I did not want this deck to be too much bigger than it already was, So I opted to allow for the optional addition of a second display, which could let the first display be used as a trackpad/status indicator/second display.
+
+#### Disassembly of the Board
 
 One downside to choosing this particular board is that it is very tall, so extensive modding is needed to prevent the keyboard from being at a height that would give you carpal tunel.
 

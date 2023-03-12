@@ -26,15 +26,16 @@ The following steps should be performed in order:
 5. Insert the power button and the charging port into the right port plate.
 6. Connect the power button to its port on the UPS board, and the charging port to the USB-C port.
 7. Connect the antenna to the Compute Module.
-8. Adhere the display to the raised areas on the rails.
-9. Connect the USB-C port on the display to one of the USB ports on the UPS.
-10. Thread the indicator LEDs and the attached wires through the rectangular hole in the top-right case section. You will glue it in later.
-11. Connect and position the battery.
-12. Connect the audio card to the USB port pair that you didn't route to the outside of the case, and adhere that port to the inside of the bottom-left half of the case.
-13. Plug a USB to MicroUSB cable to the same port pair. make usre it is adequately flexible, as it will connect to the keyboard.
-14. Slide the keyboard halves into their respective halves of the top case parts, adding washers as needed to raise it well above the screen. Secure them with the small bars (these should friction fit, but can be adhered if needed). 
-15. Align the mounting holes, and thread the Meccano bolts through them.
-16. Connect the keyboard to the cable from step 13. 
-17. Attach the two halves of each side together.
-18. Place the side covers on.
-19. Glue the indicator LED into the hole you threaded it through.
+8. Connect the compute module to the display board, adhereing the antenna to the nearest flat surface.
+9. Adhere the display to the raised areas on the rails.
+10. Connect the USB-C port on the display to one of the USB ports on the UPS.
+11. Thread the indicator LEDs and the attached wires through the rectangular hole in the top-right case section. You will glue it in later.
+12. Connect and position the battery.
+13. Connect the audio card to the USB port pair that you didn't route to the outside of the case, and adhere that port to the inside of the bottom-left half of the case.
+14. Plug a USB to MicroUSB cable to the same port pair. make usre it is adequately flexible, as it will connect to the keyboard.
+15. Slide the keyboard halves into their respective halves of the top case parts, adding washers as needed to raise it well above the screen. Secure them with the small bars (these should friction fit, but can be adhered if needed). 
+16. Align the mounting holes, and thread the Meccano bolts through them.
+17. Connect the keyboard to the cable from step 14. 
+18. Attach the two halves of each side together.
+19. Place the side covers on.
+20. Glue the indicator LED into the hole you threaded it through.

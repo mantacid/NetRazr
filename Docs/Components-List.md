@@ -44,7 +44,7 @@ I found the Components in this list on these sites:
 [MicroUSB Port](https://in.element14.com/wurth-elektronik/629105150521/micro-usb-2-0-type-b-receptacle/dp/2470822#anchorTechnicalDOCS)
 [Kailh Choc Tactile Switches](https://lowprokb.ca/collections/keyboards/products/sunset-tactile-choc-switches) (everywhere else was sold out, and I didnt want clicky or linear switches. I ended up having to settle for the clicky switches anyways, because I was not paying $9 for a pack of 10 switches.)
 
-You will also need a special HDMI cable if you plan to attach a secondary display, as well as a USB to USB-C cable to power the display, and a USB to MicroUSB cable to connect the keyboard. both of these cables should be flexible enough to not interfere with the movement of the case.
+You will also need a [special HDMI cable](https://www.amazon.com/NFHK-Degree-Right-Up-Multicopter-Photography/dp/B096K6MSCS?th=1) if you plan to attach a secondary display, as well as a USB to USB-C cable to power the display, and a USB to MicroUSB cable to connect the keyboard. All of these cables should be flexible enough to not interfere with the movement of the case.
 
 ## KeyCaps
 

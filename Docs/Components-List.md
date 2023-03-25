@@ -14,6 +14,9 @@ If you are using different components then the ones detailed in this documentati
 ## Another Computer
 This will be used to write the firmware to both the Keyboard and the Raspberry Pi, design the PCB and case, and read this documentation.
 
+## AVR Flasher
+You'll need this to flash the bootloader to the microcontroller. Refer to the QMK docs to find the one that fits your use case.
+
 # Keyboard
 ## Electrical Components
 >[!TIP]

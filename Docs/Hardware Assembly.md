@@ -5,6 +5,8 @@ The following steps should be performed in order:
 2. Solder in the Through-hole components.
 3. Apply legends to the keycaps.
 4. Put the keycaps on the keyboard.
+5. Flash the bootloader through the SPI pins.
+6. Flash the firmware through the USB interface.
 
 ## Display Board
 1. Follow the [[Components-List#Disassembly of the Board|Board Disassembly]] Instructions.

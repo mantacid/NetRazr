@@ -19,7 +19,7 @@ An easy way to streamline and simplify this process would be to use the many onl
 ### Setup:
 First, Install the QMK tools on your computer. You'll find instructions for various operating systems [here](https://docs.qmk.fm/#/newbs_getting_started). Development was done using Raspbian Linux.
 
-Second, Download the contents of the `/Firmware` directory from this repository and move the folder to `~/qmk_firmware/keyboards`.
+Second, Download the contents of the `/Firmware/netrazr_kb` directory from this repository and move the folder to `~/qmk_firmware/keyboards`.
 
 You'll also need to download KiCAD, as well as the [klepcbgen](https://github.com/jeroen94704/klepcbgen) script and any footprint libraries you may need (such as those containing any obscure keyswitches you may use). KiCAD 6 also has an issue with 3D model libraries not working properly. There are a number of fixes for this, none of which worked for me. I had to find, doenload, convert, position, and replace each Component's 3d Model by Hand. If you find an easier way to mass-update the libraries, please tell me.
 

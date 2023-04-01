@@ -37,7 +37,7 @@ I found the Components in this list on these sites:
 [22R Resistor](https://www.mouser.com/ProductDetail/Panasonic/ERA-6AHD220V?qs=sGAEpiMZZMtlubZbdhIBINE5Vwz7C5t%2F1COSCSmdUdY%3D)
 [10kOhm Resistor](https://www.mouser.com/ProductDetail/Panasonic/ERA-6VEB1002V?qs=sGAEpiMZZMtlubZbdhIBIF3tu7NV9mhCMkhdtUityXk%3D)
 [4.7uF Capacitor](https://www.mouser.com/ProductDetail/KYOCERA-AVX/08056D475MAT2A?qs=8gCCvWsAIP16fDHGJX3Haw%3D%3D)
-[Crystal](https://www.mouser.com/ProductDetail/ECS/ECS-200-8-30-JGN-TR?qs=rQFj71Wb1eWMqX0Vmq2tsw%3D%3D)
+[Crystal](https://www.mouser.com/ProductDetail/ECS/ECS-160-8-30-JGN-TR?qs=rQFj71Wb1eV2OLvWbvOybg%3D%3D)
 [0.1uF Capacitor](https://www.mouser.com/ProductDetail/KYOCERA-AVX/08056D104KAT2A?qs=ZBeOGGPQgEFSiSMjaoxiBA%3D%3D)
 [SPI header](https://www.mouser.com/ProductDetail/Amphenol-FCI/10129382-972002BLF?qs=0lQeLiL1qyb2YZ6YnOsbzg%3D%3D)
 [22pF Capacitor](https://www.mouser.com/ProductDetail/KYOCERA-AVX/04026A220JAT2A?qs=k4kUdCzLgS4lZhgcMzX1uw%3D%3D)

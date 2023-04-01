@@ -5,8 +5,9 @@ The following steps should be performed in order:
 2. Solder in the Through-hole components.
 3. Apply legends to the keycaps.
 4. Put the keycaps on the keyboard.
-5. Flash the bootloader through the SPI pins.
+5. Flash the bootloader through the SPI pins if necessary. the atmega32u4 has the amtel dfu bootloader preflashed, so this step shouldn't be necessary unless you want to use a different bootloader. 
 6. Flash the firmware through the USB interface.
+7. Once you've tested the Keyboard and are satisfied with how it works, you will need to desolder the pin header and the reset button, as they will get in the way when sliding the pcb into the case. The reset switch can be reattached if desired once the pcb is in the case.
 
 ## Display Board
 1. Follow the [[Components-List#Disassembly of the Board|Board Disassembly]] Instructions.

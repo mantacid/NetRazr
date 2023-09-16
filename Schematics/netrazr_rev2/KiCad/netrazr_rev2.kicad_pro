@@ -363,7 +363,10 @@
     "meta": {
       "version": 2
     },
-    "net_colors": null
+    "net_colors": {
+      "GND": "rgb(255, 93, 0)",
+      "VCC": "rgb(0, 255, 4)"
+    }
   },
   "pcbnew": {
     "last_paths": {

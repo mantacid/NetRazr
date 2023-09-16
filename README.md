@@ -1,4 +1,4 @@
-This Documentation contains all the information you ned to build and/or modify the NetRazr Cyberdeck.
+This Documentation contains all the information you need to build and/or modify the NetRazr Cyberdeck.
 
 This documentation was designed to be read in the Obsidian Application, and as such some formatting may be broken when viewed on Github. I will try my best to make the two as compatible as possible.
 
@@ -23,7 +23,7 @@ I thought it was cool, and I was tired of coming up with ideas and not being abl
 	- 1 USB-C Port (for power)
 	- HDMI Output
 	- Gigabit Ethernet
-	- MicroSD Card socket
+	- MicroSD Card socket (for live images. I recommend learning to partition and format a disk, so you can use an SSD to contain the bulk of the OS. Micro SD cards tend to fail suddenly.)
 	- 40 Pin GPIO
 	- PoE Header
 	- Fan Header
